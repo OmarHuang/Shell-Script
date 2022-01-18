@@ -1,5 +1,6 @@
-# Shell script
-  This is my Shell script that I use for complete some task.
+# Shell Script
+  This is my Shell Script that I use for complete some task.
 
-  * ping_test
-    To check my house lan is working or not
+  * ping_test.sh
+    
+    To check my house lan is working or not.
