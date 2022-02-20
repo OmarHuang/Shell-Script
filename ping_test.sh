@@ -11,9 +11,8 @@ for i in {1..5}; do
         break
     # Check if target is unreachable and reach maximum attempt
     elif [ "$i" -eq 5 ]; then
-    	echo "$(date) $target is unreachable." >> /var/log/ping_test.log
+        echo "$(date) $target is unreachable." >> /var/log/ping_test.log
         sudo shutdown -h now
-        break
     else
         sleep 60
     fi
